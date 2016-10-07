@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuizzApp</string>
+    <!--Question 1 MAX CHAR [15] -->
+    <string name="question1">What is an intent?</string>
+    <!--Question 1 answer MAX CHAR [15] -->
+    <string name="intentAnswer1">Its a pie!</string>
+    <!--Question 1 answer MAX CHAR [50] -->
+    <string name="intentAnswer2">An intent is an abstract description of an operation to be performed.</string>
+    <!--Question 1 answer MAX CHAR [15] -->
+    <string name="intentAnswer3">Its a pie!</string>
+    <!--Question 2 MAX CHAR [15] -->
+    <string name="question2">What is a View?</string>
+</resources>
