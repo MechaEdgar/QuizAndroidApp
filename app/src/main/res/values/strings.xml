@@ -9,5 +9,38 @@
     <!--Question 1 answer MAX CHAR [15] -->
     <string name="intentAnswer3">Its a pie!</string>
     <!--Question 2 MAX CHAR [15] -->
-    <string name="question2">What is a View?</string>
+    <string name="question2">What is a View in android?</string>
+    <!--Question 2 MAX CHAR [15] -->
+    <string name="viewAnswer1">View is the base class for widgets, which are used to create interactive UI components (buttons, text fields, etc.).</string>
+    <!--Question 2 MAX CHAR [15] -->
+    <string name="viewAnswer2">Range or sight or vision</string>
+    <!--Question 2 MAX CHAR [15] -->
+    <string name="viewAnswer3">A picture or photograph of something</string>
+    <!--Question 3 MAX CHAR [15] -->
+    <string name="question3">What is a toast?</string>
+    <!--Question 3 MAX CHAR [15] -->
+    <string name="toastAnswer1">Ñumy! Breakfast!.</string>
+    <!--Question 3 MAX CHAR [15] -->
+    <string name="toastAnswer2">A toast provides simple feedback about an operation in a small popup.</string>
+    <!--Question 3 MAX CHAR [15] -->
+    <string name="toastAnswer3">Its a french recipe.</string>
+    <!-- Question 4 MAX CHAR [20] -->
+    <string name="question4">What is a RelativeLayout?</string>
+    <!-- Question 4 MAX CHAR [20] -->
+    <string name="relativeLayoutAnswer1">RelativeLayout is a view group that displays child views in relative positions</string>
+    <!-- Question 4 MAX CHAR [20] -->
+    <string name="relativeLayoutAnswer2">All is relative in this life, the time, the space, the layouts</string>
+    <!-- Question 4 MAX CHAR [20] -->
+    <string name="relativeLayoutAnswer3">RelativeLayout is a view group that displays child views in Linear positions</string>
+    <!-- Question 5 MAX CHAR [20] -->
+    <string name="question5">What is a LinearLayout?</string>
+    <!-- Question 5 MAX CHAR [20] -->
+    <string name="linearLayoutAnswer1">Its a linear, not curvy, line.</string>
+    <!-- Question 5 MAX CHAR [20] -->
+    <string name="linearLayoutAnswer2">LinearLayout is a view group that aligns all children in a single direction, vertically or horizontally.</string>
+    <!-- Question 5 MAX CHAR [20] -->
+    <string name="linearLayoutAnswer3">Its a linear, not curvy, line.</string>
+
+    <!--Button-->
+    <string name="quiz">Quiz!</string>
 </resources>

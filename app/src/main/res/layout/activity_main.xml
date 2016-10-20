@@ -20,6 +20,7 @@
             android:text="@string/intentAnswer1"
             />
         <CheckBox
+            android:id="@+id/correctAnswerOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/intentAnswer2"
@@ -34,6 +35,100 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/question2"
+            />
+        <CheckBox
+            android:id="@+id/correctAnswerTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viewAnswer1"
+            />
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viewAnswer2"
+            />
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viewAnswer3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question3"
+            />
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toastAnswer1"
+            />
+        <CheckBox
+            android:id="@+id/correctAnswerThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toastAnswer2"
+            />
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/toastAnswer3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question4"
+            />
+
+        <CheckBox
+            android:id="@+id/correctAnswerFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/relativeLayoutAnswer1"
+            />
+
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/relativeLayoutAnswer2"
+            />
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/relativeLayoutAnswer3"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question5"
+            />
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linearLayoutAnswer1"
+            />
+        <CheckBox
+            android:id="@+id/correctAnswerFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linearLayoutAnswer2"
+            />
+        <CheckBox
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linearLayoutAnswer3"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz"
             />
 
 
