@@ -13,74 +13,88 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/question1" />
+            android:text="@string/question1"
+            style="@style/BaseStyle"
+            />
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/intentAnswer1"
+            style="@style/MainCheckboxStyle"
             />
         <CheckBox
             android:id="@+id/correctAnswerOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/intentAnswer2"
+            style="@style/MainCheckboxStyle"
             />
         <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/intentAnswer3"
+            style="@style/MainCheckboxStyle"
             />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/question2"
+            style="@style/BaseStyle"
             />
         <CheckBox
             android:id="@+id/correctAnswerTwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/viewAnswer1"
+            style="@style/MainCheckboxStyle"
             />
         <CheckBox
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/viewAnswer2"
+            style="@style/MainCheckboxStyle"
             />
         <CheckBox
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/viewAnswer3"
+            style="@style/MainCheckboxStyle"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/question3"
+            style="@style/BaseStyle"
             />
         <CheckBox
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/toastAnswer1"
+            style="@style/MainCheckboxStyle"
             />
         <CheckBox
             android:id="@+id/correctAnswerThree"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/toastAnswer2"
+            style="@style/MainCheckboxStyle"
             />
         <CheckBox
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/toastAnswer3"
+            style="@style/MainCheckboxStyle"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/question4"
+            style="@style/BaseStyle"
             />
 
         <CheckBox
@@ -88,6 +102,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/relativeLayoutAnswer1"
+            style="@style/MainCheckboxStyle"
             />
 
         <CheckBox
@@ -95,35 +110,41 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/relativeLayoutAnswer2"
+            style="@style/MainCheckboxStyle"
             />
         <CheckBox
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/relativeLayoutAnswer3"
+            style="@style/MainCheckboxStyle"
             />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/question5"
+            style="@style/BaseStyle"
             />
         <CheckBox
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/linearLayoutAnswer1"
+            style="@style/MainCheckboxStyle"
             />
         <CheckBox
             android:id="@+id/correctAnswerFive"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/linearLayoutAnswer2"
+            style="@style/MainCheckboxStyle"
             />
         <CheckBox
 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/linearLayoutAnswer3"
+            style="@style/MainCheckboxStyle"
             />
         <Button
             android:layout_width="wrap_content"

@@ -8,4 +8,13 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="BaseStyle">
+        <!-- Main Style for the TextViews-->
+        <item name="android:textSize">20dp</item>
+        <item name="android:padding">10sp</item>
+    </style>
+
+    <style name="MainCheckboxStyle">
+        <item name="android:padding">5dp</item>
+    </style>
 </resources>
