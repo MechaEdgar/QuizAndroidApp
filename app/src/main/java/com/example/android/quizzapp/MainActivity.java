@@ -55,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
 
     /*
     @param correctAnswer1 is the correct answer for the first question.
+    @param correctAnswer2 is the correct answer for the first question.
+    @param correctAnswer3 is the correct answer for the first question.
+    @param correctAnswer4 is the correct answer for the first question.
+    @param correctAnswer5 is the correct answer for the first question.
      */
     private int calculateScore(boolean theCorrectAnswer1, boolean theCorrectAnswer2, boolean theCorrectAnswer3
             , boolean theCorrectAnswer4, boolean theCorrectAnswer5) {
