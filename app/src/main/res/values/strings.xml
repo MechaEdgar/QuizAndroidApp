@@ -43,4 +43,6 @@
 
     <!--Button-->
     <string name="quiz">Quiz!</string>
+    <!--Score Text-->
+    <string name="scoreText">Your Score Is!:</string>
 </resources>
