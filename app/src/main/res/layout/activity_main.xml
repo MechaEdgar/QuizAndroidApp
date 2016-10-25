@@ -16,25 +16,29 @@
             android:text="@string/question1"
             style="@style/BaseStyle"
             />
-        <CheckBox
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/intentAnswer1"
             style="@style/MainCheckboxStyle"
             />
-        <CheckBox
+        <RadioButton
             android:id="@+id/correctAnswerOne"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/intentAnswer2"
             style="@style/MainCheckboxStyle"
             />
-        <CheckBox
+        <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/intentAnswer3"
             style="@style/MainCheckboxStyle"
             />
+        </RadioGroup>
 
         <TextView
             android:layout_width="wrap_content"

@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
+import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void Score(View view) {
         // Check if Answer 1 is correct.
-        CheckBox correctAnswer1 = (CheckBox) findViewById(R.id.correctAnswerOne);
+        RadioButton correctAnswer1 = (RadioButton) findViewById(R.id.correctAnswerOne);
         boolean theCorrectAnswer1 = correctAnswer1.isChecked();
 
         //Check if Answer 2 is correct.
