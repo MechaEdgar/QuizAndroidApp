@@ -10,20 +10,20 @@
     <!--Question 1 answer2 MAX CHAR [50] -->
     <string name="intentAnswer2">An intent is an abstract description of an operation to be performed.</string>
 
-    <!--Question 1 answer3 MAX CHAR [30] -->
-    <string name="intentAnswer3">Its a pie!</string>
+    <!--Question 1 answer3 MAX CHAR [50] -->
+    <string name="intentAnswer3">And intent is an intention to do something.</string>
 
     <!--Question 2 MAX CHAR [30] -->
-    <string name="question2">What is a View in android?</string>
+    <string name="question2">What components we can use to create a interactive UI?</string>
 
     <!--Question 2 Answer1 MAX CHAR [30] -->
-    <string name="viewAnswer1">View is the base class for widgets, which are used to create interactive UI components (buttons, text fields, etc.).</string>
+    <string name="viewAnswer1">Buttons</string>
 
     <!--Question 2 Answer2 MAX CHAR [30] -->
-    <string name="viewAnswer2">Range or sight or vision</string>
+    <string name="viewAnswer2">Text fields</string>
 
     <!--Question 2 Answer3 MAX CHAR [30] -->
-    <string name="viewAnswer3">A picture or photograph of something</string>
+    <string name="viewAnswer3">A Magic Sword</string>
 
     <!--Question 3 MAX CHAR [30] -->
     <string name="question3">What is a toast?</string>
@@ -38,10 +38,10 @@
     <string name="toastAnswer3">Its a french recipe.</string>
 
     <!-- Question 4 MAX CHAR [20] -->
-    <string name="question4">What is a RelativeLayout?</string>
+    <string name="question4">Is a view group that displays child views in relative positions.</string>
 
-    <!-- Question 4 Answer1 MAX CHAR [50] -->
-    <string name="relativeLayoutAnswer1">RelativeLayout is a view group that displays child views in relative positions</string>
+    <!-- Question 4 hint MAX CHAR [50] -->
+    <string name="hint">Put your answer here.</string>
 
     <!-- Question 4 Answer2 MAX CHAR [50] -->
     <string name="relativeLayoutAnswer2">All is relative in this life, the time, the space, the layouts</string>
