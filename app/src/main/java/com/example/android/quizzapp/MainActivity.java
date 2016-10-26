@@ -35,6 +35,10 @@ public class MainActivity extends AppCompatActivity {
         CheckBox secondCorrectAnswer = (CheckBox) findViewById(R.id.secondCorrectAnswer);
         boolean secondCorrectAns = secondCorrectAnswer.isChecked();
 
+        //Check if the Second checkbox answer is unchecked
+        CheckBox secondIncorrectAnswer = (CheckBox) findViewById(R.id.incorrectAnswerTwo);
+        boolean secondIncorrectAns = secondIncorrectAnswer.isChecked();
+
         //Check if the third answer is correct
         RadioButton thirdAnswer = (RadioButton) findViewById(R.id.correctAnswerThree);
         boolean thirdCorrect = thirdAnswer.isChecked();
@@ -47,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         boolean fifthCorrect = fifthAnswer.isChecked();
 
         checkAnswer1(firstCorrect);
-        checkAnswer2(secondCorrect, secondCorrectAns);
+        checkAnswer2(secondCorrect, secondCorrectAns,secondIncorrectAns);
         checkAnswer3(thirdCorrect);
         checkAnswer4(fourthCorrect);
         checkAnswer5(fifthCorrect);
@@ -58,17 +62,15 @@ public class MainActivity extends AppCompatActivity {
     private int checkAnswer1(boolean firstCorrect) {
         if (firstCorrect) {
             totalScore += 1;
-
         } else {
             return totalScore;
         }
         return totalScore;
     }
 
-    private int checkAnswer2(boolean secondCorrect, boolean secondCorrectAns) {
-        if (secondCorrect && secondCorrectAns) {
+    private int checkAnswer2(boolean secondCorrect, boolean secondCorrectAns,boolean secondIncorrectAns) {
+        if (secondCorrect && secondCorrectAns && !secondIncorrectAns) {
             totalScore += 1;
-
         } else {
             return totalScore;
         }

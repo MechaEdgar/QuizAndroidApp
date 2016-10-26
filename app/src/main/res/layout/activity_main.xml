@@ -46,7 +46,7 @@
             android:text="@string/viewAnswer2" />
 
         <CheckBox
-
+            android:id="@+id/incorrectAnswerTwo"
             style="@style/MainCheckboxStyle"
             android:text="@string/viewAnswer3" />
 
@@ -66,7 +66,6 @@
             android:layout_height="wrap_content">
 
             <RadioButton
-
                 style="@style/MainCheckboxStyle"
                 android:text="@string/toastAnswer1" />
 
@@ -76,7 +75,6 @@
                 android:text="@string/toastAnswer2" />
 
             <RadioButton
-
                 style="@style/MainCheckboxStyle"
                 android:text="@string/toastAnswer3" />
         </RadioGroup>
@@ -105,7 +103,6 @@
             android:layout_height="wrap_content">
 
             <RadioButton
-
                 style="@style/MainCheckboxStyle"
                 android:text="@string/linearLayoutAnswer1" />
 
@@ -115,7 +112,6 @@
                 android:text="@string/linearLayoutAnswer2" />
 
             <RadioButton
-
                 style="@style/MainCheckboxStyle"
                 android:text="@string/linearLayoutAnswer3" />
         </RadioGroup>
