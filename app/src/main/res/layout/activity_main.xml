@@ -22,21 +22,15 @@
 
             <RadioButton
                 style="@style/MainCheckboxStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/intentAnswer1" />
 
             <RadioButton
                 android:id="@+id/correctAnswerOne"
                 style="@style/MainCheckboxStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/intentAnswer2" />
 
             <RadioButton
                 style="@style/MainCheckboxStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/intentAnswer3" />
         </RadioGroup>
 
@@ -49,22 +43,16 @@
         <CheckBox
             android:id="@+id/secondCorrectAnswer"
             style="@style/MainCheckboxStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="@string/viewAnswer2" />
 
         <CheckBox
 
             style="@style/MainCheckboxStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="@string/viewAnswer3" />
 
         <CheckBox
             android:id="@+id/correctAnswerTwo"
             style="@style/MainCheckboxStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:text="@string/viewAnswer1" />
 
         <TextView
@@ -80,22 +68,16 @@
             <RadioButton
 
                 style="@style/MainCheckboxStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/toastAnswer1" />
 
             <RadioButton
                 android:id="@+id/correctAnswerThree"
                 style="@style/MainCheckboxStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/toastAnswer2" />
 
             <RadioButton
 
                 style="@style/MainCheckboxStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/toastAnswer3" />
         </RadioGroup>
 
@@ -108,8 +90,6 @@
         <EditText
             android:id="@+id/correctAnswerFour"
             style="@style/MainCheckboxStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:hint="@string/hint"
             android:inputType="textCapCharacters" />
 
@@ -127,22 +107,16 @@
             <RadioButton
 
                 style="@style/MainCheckboxStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/linearLayoutAnswer1" />
 
             <RadioButton
                 android:id="@+id/correctAnswerFive"
                 style="@style/MainCheckboxStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/linearLayoutAnswer2" />
 
             <RadioButton
 
                 style="@style/MainCheckboxStyle"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:text="@string/linearLayoutAnswer3" />
         </RadioGroup>
 
