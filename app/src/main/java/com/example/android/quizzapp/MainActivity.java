@@ -20,8 +20,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
     }
 
     public void scoreView(View view) {
@@ -55,64 +53,53 @@ public class MainActivity extends AppCompatActivity {
         checkAnswer5(fifthCorrect);
         Toast.makeText(this, "Your score is: " + totalScore, Toast.LENGTH_SHORT).show();
         totalScore = 0;
-
     }
 
-    public int checkAnswer1(boolean firstCorrect) {
+    private int checkAnswer1(boolean firstCorrect) {
         if (firstCorrect) {
             totalScore += 1;
 
         } else {
             return totalScore;
         }
-
         return totalScore;
     }
 
-    public int checkAnswer2(boolean secondCorrect, boolean secondCorrectAns) {
+    private int checkAnswer2(boolean secondCorrect, boolean secondCorrectAns) {
         if (secondCorrect && secondCorrectAns) {
             totalScore += 1;
 
         } else {
             return totalScore;
         }
-
         return totalScore;
     }
 
-    public int checkAnswer3(boolean thirdCorrect) {
+    private int checkAnswer3(boolean thirdCorrect) {
         if (thirdCorrect) {
             totalScore += 1;
-
         } else {
             return totalScore;
         }
-
         return totalScore;
     }
 
-    public int checkAnswer4(String fourthCorrect) {
+    private int checkAnswer4(String fourthCorrect) {
         String relative = "RELATIVE";
         if (fourthCorrect.equals(relative)) {
             totalScore += 1;
-
         } else {
             return totalScore;
         }
-
         return totalScore;
     }
 
-    public int checkAnswer5(boolean fifthCorrect) {
+    private int checkAnswer5(boolean fifthCorrect) {
         if (fifthCorrect) {
             totalScore += 1;
-
         } else {
             return totalScore;
         }
-
         return totalScore;
     }
-
-
 }
