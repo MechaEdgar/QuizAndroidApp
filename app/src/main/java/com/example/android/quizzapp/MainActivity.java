@@ -1,85 +1,118 @@
 package com.example.android.quizzapp;
 
-import android.content.Context;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
-import android.widget.TextView;
+import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.Toast;
 
-import static android.R.attr.id;
+import com.example.android.quizzapp.R;
+
 import static android.os.Build.VERSION_CODES.M;
 
 public class MainActivity extends AppCompatActivity {
-    int score = 0;
+
+    int totalScore = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
     }
 
-    public void Score(View view) {
-        // Check if Answer 1 is correct.
-        CheckBox correctAnswer1 = (CheckBox) findViewById(R.id.correctAnswerOne);
-        boolean theCorrectAnswer1 = correctAnswer1.isChecked();
+    public void scoreView(View view) {
+        //Check if the first answer is correct
+        RadioButton firstAnswer = (RadioButton) findViewById(R.id.correctAnswerOne);
+        boolean firstCorrect = firstAnswer.isChecked();
 
-        //Check if Answer 2 is correct.
-        CheckBox correctAnswer2 = (CheckBox) findViewById(R.id.correctAnswerTwo);
-        boolean theCorrectAnswer2 = correctAnswer2.isChecked();
+        //Check if the Second first checkbox answer is correct
+        CheckBox secondAnswer = (CheckBox) findViewById(R.id.correctAnswerTwo);
+        boolean secondCorrect = secondAnswer.isChecked();
 
-        //Check if Asnwer 3 is correct.
-        CheckBox correctAnswer3 = (CheckBox) findViewById(R.id.correctAnswerThree);
-        boolean theCorrectAnswer3 = correctAnswer3.isChecked();
+        //Check if the Second checkbox answer is correct
+        CheckBox secondCorrectAnswer = (CheckBox) findViewById(R.id.secondCorrectAnswer);
+        boolean secondCorrectAns = secondCorrectAnswer.isChecked();
 
-        //Check if Answer 4 is correct.
-        CheckBox correctAnswer4 = (CheckBox) findViewById(R.id.correctAnswerFour);
-        boolean theCorrectAnswer4 = correctAnswer4.isChecked();
+        //Check if the third answer is correct
+        RadioButton thirdAnswer = (RadioButton) findViewById(R.id.correctAnswerThree);
+        boolean thirdCorrect = thirdAnswer.isChecked();
 
-        //Check if Answer 5 is correct.
-        CheckBox correctAnswer5 = (CheckBox) findViewById(R.id.correctAnswerFive);
-        boolean theCorrectAnswer5 = correctAnswer5.isChecked();
+        //Check if the fourth answer is correct
+        EditText fourthAnswer = (EditText) findViewById(R.id.correctAnswerFour);
+        String fourthCorrect = fourthAnswer.getText().toString();
+        //Check if the fifth answer is correct
+        RadioButton fifthAnswer = (RadioButton) findViewById(R.id.correctAnswerFive);
+        boolean fifthCorrect = fifthAnswer.isChecked();
 
-        //Call the method calculateScore and pass the values
-        calculateScore(theCorrectAnswer1, theCorrectAnswer2, theCorrectAnswer3, theCorrectAnswer4, theCorrectAnswer5);
+        checkAnswer1(firstCorrect);
+        checkAnswer2(secondCorrect, secondCorrectAns);
+        checkAnswer3(thirdCorrect);
+        checkAnswer4(fourthCorrect);
+        checkAnswer5(fifthCorrect);
+        Toast.makeText(this, "Your score is: " + totalScore, Toast.LENGTH_SHORT).show();
+        totalScore = 0;
 
-        Context context = getApplicationContext();
-        CharSequence text = "Your Score is:" + score;
-        int duration = Toast.LENGTH_SHORT;
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
-        score = 0;
-        return;
     }
 
-    /*
-    @param correctAnswer1 is the correct answer for the first question.
-    @param correctAnswer2 is the correct answer for the first question.
-    @param correctAnswer3 is the correct answer for the first question.
-    @param correctAnswer4 is the correct answer for the first question.
-    @param correctAnswer5 is the correct answer for the first question.
-     */
-    private int calculateScore(boolean theCorrectAnswer1, boolean theCorrectAnswer2, boolean theCorrectAnswer3
-            , boolean theCorrectAnswer4, boolean theCorrectAnswer5) {
+    public int checkAnswer1(boolean firstCorrect) {
+        if (firstCorrect) {
+            totalScore += 1;
 
-
-        if (theCorrectAnswer1 && !theCorrectAnswer2 && !theCorrectAnswer3 && !theCorrectAnswer4 && !theCorrectAnswer5 ) {
-            return score = 1;
-        } else if (theCorrectAnswer1 && theCorrectAnswer2 && !theCorrectAnswer3 && !theCorrectAnswer4 && !theCorrectAnswer5) {
-            return score = 2;
-        } else if (theCorrectAnswer1 && theCorrectAnswer2 && theCorrectAnswer3 && !theCorrectAnswer4 && !theCorrectAnswer5) {
-            return score = 3;
-        } else if (theCorrectAnswer1 && theCorrectAnswer2 && theCorrectAnswer3 && theCorrectAnswer4 && !theCorrectAnswer5) {
-            return score = 4;
-        } else if (theCorrectAnswer1 && theCorrectAnswer2 && theCorrectAnswer3 && theCorrectAnswer4 && theCorrectAnswer5) {
-            return score = 5;
         } else {
-            return score;
+            return totalScore;
         }
 
+        return totalScore;
     }
+
+    public int checkAnswer2(boolean secondCorrect, boolean secondCorrectAns) {
+        if (secondCorrect && secondCorrectAns) {
+            totalScore += 1;
+
+        } else {
+            return totalScore;
+        }
+
+        return totalScore;
+    }
+
+    public int checkAnswer3(boolean thirdCorrect) {
+        if (thirdCorrect) {
+            totalScore += 1;
+
+        } else {
+            return totalScore;
+        }
+
+        return totalScore;
+    }
+
+    public int checkAnswer4(String fourthCorrect) {
+        String relative = "RELATIVE";
+        if (fourthCorrect.equals(relative)) {
+            totalScore += 1;
+
+        } else {
+            return totalScore;
+        }
+
+        return totalScore;
+    }
+
+    public int checkAnswer5(boolean fifthCorrect) {
+        if (fifthCorrect) {
+            totalScore += 1;
+
+        } else {
+            return totalScore;
+        }
+
+        return totalScore;
+    }
+
+
 }
-
-
-

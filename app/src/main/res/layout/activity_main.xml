@@ -11,149 +11,148 @@
         tools:context="com.example.android.quizzapp.MainActivity">
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/question1"
             style="@style/BaseStyle"
-            />
-        <CheckBox
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/intentAnswer1"
-            style="@style/MainCheckboxStyle"
-            />
-        <CheckBox
-            android:id="@+id/correctAnswerOne"
+            android:text="@string/question1" />
+
+        <RadioGroup
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/intentAnswer2"
-            style="@style/MainCheckboxStyle"
-            />
-        <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/intentAnswer3"
-            style="@style/MainCheckboxStyle"
-            />
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                style="@style/MainCheckboxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/intentAnswer1" />
+
+            <RadioButton
+                android:id="@+id/correctAnswerOne"
+                style="@style/MainCheckboxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/intentAnswer2" />
+
+            <RadioButton
+                style="@style/MainCheckboxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/intentAnswer3" />
+        </RadioGroup>
 
         <TextView
+            style="@style/BaseStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/question2"
-            style="@style/BaseStyle"
-            />
+            android:text="@string/question2" />
+
+        <CheckBox
+            android:id="@+id/secondCorrectAnswer"
+            style="@style/MainCheckboxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viewAnswer2" />
+
+        <CheckBox
+
+            style="@style/MainCheckboxStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/viewAnswer3" />
+
         <CheckBox
             android:id="@+id/correctAnswerTwo"
+            style="@style/MainCheckboxStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/viewAnswer1"
-            style="@style/MainCheckboxStyle"
-            />
-        <CheckBox
+            android:text="@string/viewAnswer1" />
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/viewAnswer2"
-            style="@style/MainCheckboxStyle"
-            />
-        <CheckBox
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/viewAnswer3"
-            style="@style/MainCheckboxStyle"
-            />
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/question3"
             style="@style/BaseStyle"
-            />
-        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question3" />
 
+        <RadioGroup
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/toastAnswer1"
-            style="@style/MainCheckboxStyle"
-            />
-        <CheckBox
-            android:id="@+id/correctAnswerThree"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/toastAnswer2"
-            style="@style/MainCheckboxStyle"
-            />
-        <CheckBox
+            android:layout_height="wrap_content">
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/toastAnswer3"
-            style="@style/MainCheckboxStyle"
-            />
+            <RadioButton
+
+                style="@style/MainCheckboxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toastAnswer1" />
+
+            <RadioButton
+                android:id="@+id/correctAnswerThree"
+                style="@style/MainCheckboxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toastAnswer2" />
+
+            <RadioButton
+
+                style="@style/MainCheckboxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toastAnswer3" />
+        </RadioGroup>
+
         <TextView
+            style="@style/BaseStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/question4"
-            style="@style/BaseStyle"
-            />
+            android:text="@string/question4" />
 
-        <CheckBox
+        <EditText
             android:id="@+id/correctAnswerFour"
+            style="@style/MainCheckboxStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/relativeLayoutAnswer1"
-            style="@style/MainCheckboxStyle"
+            android:hint="@string/hint"
+            android:inputType="textCapCharacters"
+
             />
 
-        <CheckBox
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/relativeLayoutAnswer2"
-            style="@style/MainCheckboxStyle"
-            />
-        <CheckBox
-
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/relativeLayoutAnswer3"
-            style="@style/MainCheckboxStyle"
-            />
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/question5"
             style="@style/BaseStyle"
-            />
-        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question5" />
 
+        <RadioGroup
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/linearLayoutAnswer1"
-            style="@style/MainCheckboxStyle"
-            />
-        <CheckBox
-            android:id="@+id/correctAnswerFive"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/linearLayoutAnswer2"
-            style="@style/MainCheckboxStyle"
-            />
-        <CheckBox
+            android:layout_height="wrap_content">
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/linearLayoutAnswer3"
-            style="@style/MainCheckboxStyle"
-            />
+            <RadioButton
+
+                style="@style/MainCheckboxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linearLayoutAnswer1" />
+
+            <RadioButton
+                android:id="@+id/correctAnswerFive"
+                style="@style/MainCheckboxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linearLayoutAnswer2" />
+
+            <RadioButton
+
+                style="@style/MainCheckboxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linearLayoutAnswer3" />
+        </RadioGroup>
+
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/quiz"
-            android:onClick="Score"
-            />
-
-
+            android:onClick="scoreView"
+            android:text="@string/quiz" />
 
 
     </LinearLayout>
